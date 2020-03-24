@@ -24,7 +24,7 @@ $(document).ready(function() {
     $("#variables").fadeToggle(200);
   });
 
-  $("#variablesAnswer").click(function() {
+  $("#variableAnswer").click(function() {
     $("#variables").fadeToggle(200);
     $("#variableAnswer").fadeToggle(200);
   });
@@ -34,9 +34,9 @@ $(document).ready(function() {
     $("#functions").fadeToggle(200);
   });
 
-  $("#functionsAnswer").click(function() {
+  $("#functionAnswer").click(function() {
     $("#functions").fadeToggle(200);
-    $("#functionsAnswer").fadeToggle(200);
+    $("#functionAnswer").fadeToggle(200);
   });
 
   $("#methods").click(function() {
@@ -44,8 +44,8 @@ $(document).ready(function() {
     $("#methods").fadeToggle(200);
   });
 
-  $("#methodsAnswer").click(function() {
+  $("#methodAnswer").click(function() {
     $("#methods").fadeToggle(200);
-    $("#methodsAnswer").fadeToggle(200);
+    $("#methodAnswer").fadeToggle(200);
   });
 });
